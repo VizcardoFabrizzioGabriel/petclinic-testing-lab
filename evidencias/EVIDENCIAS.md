@@ -87,8 +87,8 @@ git log --oneline --graph --all --decorate
 git log --oneline --no-merges 04e591c..develop
 ```
 
-El historial tiene 49 commits de implementación (incluidos los 8 de Vet) y 6 commits de
-integración hacia `develop`.
+El historial tiene 49 commits de implementación (incluidos los 8 de Vet), 2 de
+documentación y 7 commits de integración hacia `develop`.
 
 Captura 11: grafo del historial.
 Captura 12: lista de commits sin merges.
@@ -99,7 +99,8 @@ Captura 12: lista de commits sin merges.
 git log --merges --oneline develop
 ```
 
-Deben aparecer seis integraciones: vet, owner, specialty, visit, type y vet-specialty.
+Deben aparecer seis integraciones de módulos (vet, owner, specialty, visit, type y
+vet-specialty) y una de documentación.
 
 Captura 13: commits de tipo merge en `develop`.
 
